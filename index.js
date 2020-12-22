@@ -23,7 +23,7 @@ program
           let pwd = shell.pwd()
           let url =template[tpl] ;
           if(!url){
-            log.error(`正确命令例子：san-cli init myproject --amd ${tpl}`);
+            log.error(`正确命令例子：tp-cli init myproject h5 ${tpl}`);
             return
           }
           log.info(`正在${url}拉取模板代码 ...`)
@@ -32,7 +32,7 @@ program
             log.info('模板工程建立完成')
           })
         } else {
-          log.error('正确命令例子：san-cli init myproject --amd')
+          log.error('正确命令例子：tp-cli init myproject h5')
         }
       });
 
