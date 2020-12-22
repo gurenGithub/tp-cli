@@ -1,5 +1,5 @@
 {
-  "name": "tp-cli",
+  "name": "template-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,9 @@
   "dependencies": {
     "commander": "^2.12.2",
     "git-clone": "^0.1.0",
+    "request": "^2.88.2",
     "shelljs": "^0.7.8",
-    "tracer": "^0.8.11"
+    "tracer": "^0.8.11",
+    "user": "0.0.0"
   }
 }
